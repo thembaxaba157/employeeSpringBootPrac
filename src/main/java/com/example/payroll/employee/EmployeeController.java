@@ -1,4 +1,4 @@
-package com.example.payroll;
+package com.example.payroll.employee;
 
 import java.util.List;
 
@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.payroll.model.EmployeeModel;
+import com.example.payroll.employee.model.EmployeeModel;
 
 @RestController
 public class EmployeeController {

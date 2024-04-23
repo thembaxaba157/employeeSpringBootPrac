@@ -1,4 +1,4 @@
-package com.example.payroll;
+package com.example.payroll.employee;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -6,7 +6,7 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import com.example.payroll.model.EmployeeModel;
+import com.example.payroll.employee.model.EmployeeModel;
 
 @Configuration
 class LoadDatabase {
